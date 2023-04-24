@@ -8,13 +8,13 @@ A simple Telegram bot that texts me when my sad little server dies. You can use 
 2. Clone the project: `git clone https://github.com/onkoe/text_on_server_death`
 3. Go into the project folder: `cd text_on_server_death`
 4. Ensure Rust is installed: `rustup`
-  a. If you get a "command not found" or something, go to the [Rust site](https://rustup.rs/) and grab it! Then try again after restarting your terminal.
+    - If you get a "command not found" or something, go to the [Rust site](https://rustup.rs/) and grab it! Then try again after restarting your terminal.
 5. Install the project: `cargo install --path .`
 
 ## Usage
 
 1. Fill out the short configuration file located at `~/.config/text_on_server_death/config.toml`
-  a. You should just need an [API key](https://core.telegram.org/bots/api) and your username/channel name! Other entries are optional/already filled out.
+    - You should just need an [API key](https://core.telegram.org/bots/api) and your username/channel name! Other entries are optional/already filled out.
 2. Type `text_on_server_death` and wait. You should get a text confirming that the bot is on. Check that the green light is on every few days or so... :)
 
 ### Arguments
