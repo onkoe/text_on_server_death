@@ -1,0 +1,9 @@
+[API]
+bot_key = "" # telegram bot key
+channels = [""] # channels/people to send to
+
+[Settings]
+checking_rate = "10" # how often to check the site
+checking_rate_unit = "m" # (s)econds, (m)inutes, (h)ours, (d)ays
+url = "" # the url to check
+retries = 0 # amount of retries before message
